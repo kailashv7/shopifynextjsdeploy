@@ -7,6 +7,9 @@
     color-scheme: dark;
   }
 }
+div,li {
+  font-family: 'OPTINonoy';
+}
 
 @supports (font: -apple-system-body) and (-webkit-appearance: none) {
   img[loading='lazy'] {
