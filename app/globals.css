@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'OPTINonoy';
-  src: url('OPTINonoy-BoldItalic.eot');
+  src: url('/OPTINonoy-BoldItalic.eot');
   src:
     url('OPTINonoy-BoldItalic.eot?#iefix') format('embedded-opentype'),
     url('OPTINonoy-BoldItalic.woff2') format('woff2'),
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('Helvetica-Light.eot');
+  src: url('/Helvetica-Light.eot');
   src:
     url('Helvetica-Light.eot?#iefix') format('embedded-opentype'),
     url('Helvetica-Light.woff2') format('woff2'),
@@ -32,7 +32,7 @@
 
 @font-face {
   font-family: 'Holispay';
-  src: url('Holispay.eot');
+  src: url('/Holispay.eot');
   src:
     url('Holispay.eot?#iefix') format('embedded-opentype'),
     url('Holispay.woff2') format('woff2'),
@@ -46,7 +46,7 @@
 
 @font-face {
   font-family: 'Holispay';
-  src: url('Holispay_1.eot');
+  src: url('/Holispay_1.eot');
   src:
     url('Holispay_1.eot?#iefix') format('embedded-opentype'),
     url('Holispay_1.woff2') format('woff2'),
@@ -60,7 +60,7 @@
 
 @font-face {
   font-family: 'OPTINonoy';
-  src: url('OPTINonoy-Medium.eot');
+  src: url('/OPTINonoy-Medium.eot');
   src:
     url('OPTINonoy-Medium.eot?#iefix') format('embedded-opentype'),
     url('OPTINonoy-Medium.woff2') format('woff2'),
@@ -74,7 +74,7 @@
 
 @font-face {
   font-family: 'Helvetica';
-  src: url('HelveticaCE-Cond.eot');
+  src: url('/HelveticaCE-Cond.eot');
   src:
     url('HelveticaCE-Cond.eot?#iefix') format('embedded-opentype'),
     url('HelveticaCE-Cond.woff2') format('woff2'),
