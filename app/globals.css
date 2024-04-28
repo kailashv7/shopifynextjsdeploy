@@ -2,12 +2,97 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'OPTINonoy';
+  src: url('OPTINonoy-BoldItalic.eot');
+  src:
+    url('OPTINonoy-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('OPTINonoy-BoldItalic.woff2') format('woff2'),
+    url('OPTINonoy-BoldItalic.woff') format('woff'),
+    url('OPTINonoy-BoldItalic.ttf') format('truetype'),
+    url('OPTINonoy-BoldItalic.svg#OPTINonoy-BoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('Helvetica-Light.eot');
+  src:
+    url('Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+    url('Helvetica-Light.woff2') format('woff2'),
+    url('Helvetica-Light.woff') format('woff'),
+    url('Helvetica-Light.ttf') format('truetype'),
+    url('Helvetica-Light.svg#Helvetica-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Holispay';
+  src: url('Holispay.eot');
+  src:
+    url('Holispay.eot?#iefix') format('embedded-opentype'),
+    url('Holispay.woff2') format('woff2'),
+    url('Holispay.woff') format('woff'),
+    url('Holispay.ttf') format('truetype'),
+    url('Holispay.svg#Holispay') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Holispay';
+  src: url('Holispay_1.eot');
+  src:
+    url('Holispay_1.eot?#iefix') format('embedded-opentype'),
+    url('Holispay_1.woff2') format('woff2'),
+    url('Holispay_1.woff') format('woff'),
+    url('Holispay_1.ttf') format('truetype'),
+    url('Holispay_1.svg#Holispay') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OPTINonoy';
+  src: url('OPTINonoy-Medium.eot');
+  src:
+    url('OPTINonoy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('OPTINonoy-Medium.woff2') format('woff2'),
+    url('OPTINonoy-Medium.woff') format('woff'),
+    url('OPTINonoy-Medium.ttf') format('truetype'),
+    url('OPTINonoy-Medium.svg#OPTINonoy-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('HelveticaCE-Cond.eot');
+  src:
+    url('HelveticaCE-Cond.eot?#iefix') format('embedded-opentype'),
+    url('HelveticaCE-Cond.woff2') format('woff2'),
+    url('HelveticaCE-Cond.woff') format('woff'),
+    url('HelveticaCE-Cond.ttf') format('truetype'),
+    url('HelveticaCE-Cond.svg#HelveticaCE-Cond') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
 }
-div,li {
+div,
+li {
   font-family: 'OPTINonoy';
 }
 
