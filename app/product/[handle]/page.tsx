@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-
+import SizingChart from './sizechart';
 import { GridTileImage } from 'components/grid/tile';
 import Footer from 'components/layout/footer';
 import { Gallery } from 'components/product/gallery';
@@ -98,6 +98,7 @@ export default async function ProductPage({ params }: { params: { handle: string
 
           <div className="basis-full lg:basis-2/6">
             <ProductDescription product={product} />
+            <SizingChart/>
           </div>
         </div>
         <RelatedProducts id={product.id} />
