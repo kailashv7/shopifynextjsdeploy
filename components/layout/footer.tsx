@@ -22,13 +22,13 @@ export default async function Footer() {
             {/* <LogoSquare size="sm" /> */}
             <span className="uppercase">{SITE_NAME}</span>
           </Link>
-          <div className="">
+             
+        </div>
+        {/* <div className="">
           <p className="  font-bold font-holispay pb-8 lg:pl-[48rem]   xl:pl-[70rem] pl-64 text-9xl sm:pl-[15rem] sm:text-[14rem] md:pl-[36rem]  ">
             V
           </p>
-        </div>    
-        </div>
-
+        </div>    */}
         <Suspense
           fallback={
             <div className="flex h-[188px] w-[200px] flex-col gap-2">
