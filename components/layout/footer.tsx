@@ -38,13 +38,13 @@ export default async function Footer() {
           
           <FooterMenu menu={menu} />
         </Suspense>
-
-        </div>
         <div className="">
           <p className="  font-bold font-holispay pb-8 lg:pl-[42rem]   xl:pl-[60rem] pl-64 text-9xl sm:pl-[15rem] sm:text-[14rem] md:pl-[24rem]  ">
             V
           </p>
-        </div>  
+        </div>
+        </div>
+          
         {/* <div className="md:ml-auto">
           <a
             className="flex h-8 w-max flex-none items-center justify-center rounded-md border border-neutral-200 bg-white text-xs text-black dark:border-neutral-700 dark:bg-black dark:text-white"
